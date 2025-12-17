@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.menu {
+  padding: 10px;
+  margin-bottom: 180px;
+}
+
+.card {
+  background: #fff;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qty button {
+  width: 30px;
+  height: 30px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.keypad {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  padding: 10px;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
